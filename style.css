@@ -1,0 +1,108 @@
+body {
+    margin: 0;
+    text-align: center;
+    padding-top: 800px;
+}
+
+.profile {
+    margin-top: 50px;
+    width: 175px;
+    margin-bottom: 50px;
+    border-radius: 50%;
+}
+
+#welcome {
+    position: absolute;
+
+    height: 800px;
+    color: white;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    opacity: 1;
+    background: linear-gradient(to bottom, #66ff99 0%, #ccff33 100%);
+    display: table;
+    width: 100%;
+    height: 100%;
+    z-index: 99;
+}
+
+p {
+    font-family: 'Inconsolata', monospace;
+    max-width: 450px;
+    margin: 25px auto;
+    font-size: 17px;
+    line-height: 1.5;
+
+}
+
+h1 {
+    font-size: 40px;
+    font-family: sans-serif;
+    font-weight: 300;
+
+}
+
+#name {
+    font-size: 30px;
+    line-height: 1.2;
+    font-family: fantasy;
+
+}
+
+h2 {
+    font-size: 30px;
+    font-weight: 300;
+    line-height: 1.2;
+    font-family: monospace;
+}
+
+#bio {
+    padding: 50px;
+    text-align: center;
+
+}
+
+.line {
+    height: 6px;
+    background-color: black;
+    width: 70px;
+    margin: 8px auto;
+}
+
+.menu {
+    list-style: none;
+    font-family: sans-serif;
+    position: fixed;
+    top: 10px;
+    right: 30px;
+    z-index: 100;
+    cursor: pointer;
+}
+
+.links {
+    float: left;
+    color: aquamarine;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 9px;
+    padding-right: 9px;
+    font-family: fantasy;
+    font-size: 20px;
+    
+
+}
+
+.links:hover {
+    background-color: aquamarine;
+
+}
+html{
+    scroll-behavior: smooth;
+}
+a{
+    text-decoration: none;
+}.article:hover{
+    color: aquamarine;
+}
